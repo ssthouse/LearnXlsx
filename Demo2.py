@@ -27,7 +27,7 @@ def generate_style_xlsx_file():
         worksheet.write(row, col + 1, cost, dollar_style)
         row += 1
     worksheet.write(row, 0, "Total", bold_style)
-    worksheet.write(row, 1, "=SUM(B1:B4)", bold_style)
+    worksheet.write(row, 1, "=SUM(B2:B5)", bold_style)
 
 
 generate_style_xlsx_file()
