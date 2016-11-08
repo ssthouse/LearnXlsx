@@ -29,5 +29,8 @@ def generate_style_xlsx_file():
     worksheet.write(row, 0, "Total", bold_style)
     worksheet.write(row, 1, "=SUM(B2:B5)", bold_style)
 
+    # close file
+    workbook.close()
+
 
 generate_style_xlsx_file()
